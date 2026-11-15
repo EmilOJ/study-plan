@@ -1,0 +1,376 @@
+#separator:tab
+#html:false
+#columns:Expression	Reading	Meaning	Tags
+#tags column:4
+抵抗	ていこう	resistance; resistor	w01_electronics
+電圧	でんあつ	voltage	w01_electronics
+電流	でんりゅう	current	w01_electronics
+電力	でんりょく	power (electrical)	w01_electronics
+分圧	ぶんあつ	voltage division	w01_electronics
+コンデンサ		capacitor	w01_electronics
+静電容量	せいでんようりょう	capacitance	w01_electronics
+直列	ちょくれつ	series (connection)	w01_electronics
+並列	へいれつ	parallel (connection)	w01_electronics
+プルアップ抵抗	プルアップていこう	pull-up resistor	w01_electronics
+時定数	じていすう	time constant	w01_electronics
+過渡応答	かとおうとう	transient response	w01_electronics
+導通	どうつう	continuity; conduction	w01_electronics
+短絡	たんらく	short circuit	w01_electronics
+断線	だんせん	broken wire; open circuit	w01_electronics
+はんだ付け	はんだづけ	soldering	w01_electronics
+定格	ていかく	rating (rated value)	w01_electronics
+絶対最大定格	ぜったいさいだいていかく	absolute maximum rating	w01_electronics
+許容差	きょようさ	tolerance (component value)	w01_electronics
+発熱	はつねつ	heat generation	w01_electronics
+増幅	ぞうふく	amplification	w01_electronics
+しきい値電圧	しきいちでんあつ	threshold voltage	w01_electronics
+逆起電力	ぎゃくきでんりょく	back EMF	w01_electronics
+雑音	ざつおん	noise	w01_electronics
+測定器	そくていき	measuring instrument	w01_electronics
+テスター		multimeter (common Japanese word)	w01_electronics
+回路	かいろ	circuit	w01_electronics
+端子	たんし	terminal; pin	w01_electronics
+マイコン		microcontroller	w02_mcu
+組込み	くみこみ	embedded	w02_mcu
+割り込み	わりこみ	interrupt	w02_mcu
+優先度	ゆうせんど	priority	w02_mcu
+周辺機能	しゅうへんきのう	peripheral	w02_mcu
+分周	ぶんしゅう	clock division (prescaling)	w02_mcu
+逓倍	ていばい	frequency multiplication	w02_mcu
+発振器	はっしんき	oscillator	w02_mcu
+水晶振動子	すいしょうしんどうし	crystal resonator	w02_mcu
+初期化	しょきか	initialization	w02_mcu
+書き込み	かきこみ	flashing; writing (firmware)	w02_mcu
+汎用入出力	はんようにゅうしゅつりょく	general-purpose I/O (GPIO)	w02_mcu
+周期	しゅうき	period; cycle	w02_mcu
+分解能	ぶんかいのう	resolution	w02_mcu
+起動	きどう	startup; boot	w02_mcu
+省電力	しょうでんりょく	low power; power saving	w02_mcu
+揮発性	きはつせい	volatile	w02_mcu
+不揮発性メモリ	ふきはつせいメモリ	non-volatile memory	w02_mcu
+排他制御	はいたせいぎょ	mutual exclusion	w02_mcu
+暴走	ぼうそう	runaway (program crash/hang)	w02_mcu
+実行時間	じっこうじかん	execution time	w02_mcu
+処理負荷	しょりふか	processing load	w02_mcu
+番地	ばんち	(memory) address	w02_mcu
+通信	つうしん	communication	w03_comms
+同期	どうき	synchronization; synchronous	w03_comms
+非同期	ひどうき	asynchronous	w03_comms
+送信	そうしん	transmission (send)	w03_comms
+受信	じゅしん	reception (receive)	w03_comms
+転送	てんそう	transfer	w03_comms
+取りこぼし	とりこぼし	missed/dropped data	w03_comms
+誤り検出	あやまりけんしゅつ	error detection	w03_comms
+巡回冗長検査	じゅんかいじょうちょうけんさ	CRC (cyclic redundancy check)	w03_comms
+再送	さいそう	retransmission	w03_comms
+区切り	くぎり	delimiter; break	w03_comms
+符号付き	ふごうつき	signed (integer)	w03_comms
+符号なし	ふごうなし	unsigned (integer)	w03_comms
+遅延	ちえん	delay; latency	w03_comms
+帯域	たいいき	bandwidth	w03_comms
+応答	おうとう	response	w03_comms
+確認応答	かくにんおうとう	acknowledgement (ACK)	w03_comms
+通信速度	つうしんそくど	communication speed; baud rate	w03_comms
+欠損	けっそん	missing (data loss)	w03_comms
+化ける	ばける	to be garbled (data/characters)	w03_comms
+順序	じゅんじょ	order; sequence	w03_comms
+取得	しゅとく	acquisition (get data)	w03_comms
+仕様	しよう	specification	w03_comms
+電源回路	でんげんかいろ	power supply circuit	w04_power
+降圧	こうあつ	step-down (buck)	w04_power
+昇圧	しょうあつ	step-up (boost)	w04_power
+三端子レギュレータ	さんたんしレギュレータ	three-terminal (linear) regulator	w04_power
+損失	そんしつ	loss	w04_power
+効率	こうりつ	efficiency	w04_power
+放熱	ほうねつ	heat dissipation	w04_power
+平滑	へいかつ	smoothing (filtering ripple)	w04_power
+逆接続保護	ぎゃくせつぞくほご	reverse-polarity protection	w04_power
+過電流	かでんりゅう	overcurrent	w04_power
+過電圧	かでんあつ	overvoltage	w04_power
+突入電流	とつにゅうでんりゅう	inrush current	w04_power
+静電気放電	せいでんきほうでん	electrostatic discharge (ESD)	w04_power
+絶縁	ぜつえん	insulation; isolation	w04_power
+消費電流	しょうひでんりゅう	current consumption	w04_power
+回路図	かいろず	schematic	w04_power
+部品表	ぶひんひょう	bill of materials (BOM)	w04_power
+型番	かたばん	part number; model number	w04_power
+代替品	だいたいひん	substitute part	w04_power
+入手性	にゅうしゅせい	availability (of parts)	w04_power
+瞬停	しゅんてい	momentary power dropout	w04_power
+基板	きばん	circuit board; PCB	w05_pcb_imu
+配線	はいせん	wiring; routing	w05_pcb_imu
+ビア		via	w05_pcb_imu
+層	そう	layer	w05_pcb_imu
+ベタ		copper pour (as in ベタGND)	w05_pcb_imu
+部品配置	ぶひんはいち	component placement	w05_pcb_imu
+実装	じっそう	mounting; assembly; implementation	w05_pcb_imu
+表面実装	ひょうめんじっそう	surface mount (SMT)	w05_pcb_imu
+パスコン		bypass (decoupling) capacitor	w05_pcb_imu
+引き回し	ひきまわし	routing (of traces/cables)	w05_pcb_imu
+外形	がいけい	outline; external shape	w05_pcb_imu
+寸法	すんぽう	dimensions	w05_pcb_imu
+試作	しさく	prototype (making)	w05_pcb_imu
+発注	はっちゅう	placing an order	w05_pcb_imu
+納期	のうき	delivery date; lead time	w05_pcb_imu
+検図	けんず	drawing check; design check	w05_pcb_imu
+加速度	かそくど	acceleration	w05_pcb_imu
+角速度	かくそくど	angular velocity	w05_pcb_imu
+地磁気	ちじき	geomagnetism; magnetic field	w05_pcb_imu
+感度	かんど	sensitivity	w05_pcb_imu
+校正	こうせい	calibration	w05_pcb_imu
+温度特性	おんどとくせい	temperature characteristics	w05_pcb_imu
+零点	れいてん	zero point (bias offset)	w05_pcb_imu
+静止状態	せいしじょうたい	stationary state	w05_pcb_imu
+測位	そくい	positioning (GNSS fix)	w06_gnss
+衛星	えいせい	satellite	w06_gnss
+受信機	じゅしんき	receiver	w06_gnss
+緯度	いど	latitude	w06_gnss
+経度	けいど	longitude	w06_gnss
+方位	ほうい	bearing; heading; direction	w06_gnss
+姿勢	しせい	attitude (orientation)	w06_gnss
+姿勢推定	しせいすいてい	attitude estimation	w06_gnss
+相補フィルタ	そうほフィルタ	complementary filter	w06_gnss
+精度	せいど	accuracy; precision	w06_gnss
+分散	ぶんさん	variance	w06_gnss
+標準偏差	ひょうじゅんへんさ	standard deviation	w06_gnss
+時刻同期	じこくどうき	time synchronization	w06_gnss
+補正	ほせい	correction; compensation	w06_gnss
+外れ値	はずれち	outlier	w06_gnss
+磁気偏角	じきへんかく	magnetic declination	w06_gnss
+船首方位	せんしゅほうい	ship's heading	w06_gnss
+対地速度	たいちそくど	speed over ground (SOG)	w06_gnss
+対地針路	たいちしんろ	course over ground (COG)	w06_gnss
+横揺れ	よこゆれ	roll (ship motion)	w06_gnss
+縦揺れ	たてゆれ	pitch (ship motion)	w06_gnss
+船首揺れ	せんしゅゆれ	yaw (ship motion)	w06_gnss
+遮蔽	しゃへい	shielding; blockage (of signal)	w06_gnss
+優先度逆転	ゆうせんどぎゃくてん	priority inversion	w07_rtos
+競合状態	きょうごうじょうたい	race condition	w07_rtos
+周期処理	しゅうきしょり	periodic processing	w07_rtos
+監視	かんし	monitoring	w07_rtos
+異常検知	いじょうけんち	anomaly/fault detection	w07_rtos
+例外処理	れいがいしょり	exception handling	w07_rtos
+冗長	じょうちょう	redundancy; redundant	w07_rtos
+耐久試験	たいきゅうしけん	endurance test	w07_rtos
+連続運転	れんぞくうんてん	continuous operation	w07_rtos
+再起動	さいきどう	reboot; restart	w07_rtos
+不具合	ふぐあい	defect; malfunction	w07_rtos
+再現性	さいげんせい	reproducibility	w07_rtos
+切り分け	きりわけ	isolating (a fault)	w07_rtos
+縮退運転	しゅくたいうんてん	degraded operation	w07_rtos
+状態遷移	じょうたいせんい	state transition	w07_rtos
+静的解析	せいてきかいせき	static analysis	w07_rtos
+画像処理	がぞうしょり	image processing	w08_vision
+画素	がそ	pixel	w08_vision
+解像度	かいぞうど	resolution (image)	w08_vision
+焦点距離	しょうてんきょり	focal length	w08_vision
+画角	がかく	field of view (angle)	w08_vision
+歪み	ゆがみ	distortion	w08_vision
+内部パラメータ	ないぶパラメータ	intrinsic parameters	w08_vision
+外部パラメータ	がいぶパラメータ	extrinsic parameters	w08_vision
+再投影誤差	さいとうえいごさ	reprojection error	w08_vision
+露光	ろこう	exposure	w08_vision
+絞り	しぼり	aperture	w08_vision
+被写界深度	ひしゃかいしんど	depth of field	w08_vision
+撮像素子	さつぞうそし	image sensor	w08_vision
+二値化	にちか	binarization (thresholding)	w08_vision
+輪郭	りんかく	contour; outline	w08_vision
+特徴点	とくちょうてん	feature point	w08_vision
+水平線	すいへいせん	(sea) horizon	w08_vision
+逆光	ぎゃっこう	backlight; shooting into the sun	w08_vision
+反射	はんしゃ	reflection	w08_vision
+座標変換	ざひょうへんかん	coordinate transformation	w08_vision
+手ぶれ	てぶれ	camera shake	w08_vision
+機構設計	きこうせっけい	mechanical design	w09_cad
+筐体	きょうたい	housing; enclosure	w09_cad
+図面	ずめん	drawing (technical)	w09_cad
+三面図	さんめんず	three-view drawing	w09_cad
+寸法公差	すんぽうこうさ	dimensional tolerance	w09_cad
+はめあい		fit (shaft/hole)	w09_cad
+肉厚	にくあつ	wall thickness	w09_cad
+抜き勾配	ぬきこうばい	draft angle	w09_cad
+防水	ぼうすい	waterproof	w09_cad
+防塵	ぼうじん	dustproof	w09_cad
+保護等級	ほごとうきゅう	degree of protection (IP rating)	w09_cad
+溝	みぞ	groove	w09_cad
+つぶし代	つぶししろ	squeeze (seal compression allowance)	w09_cad
+締結	ていけつ	fastening	w09_cad
+腐食	ふしょく	corrosion	w09_cad
+耐候性	たいこうせい	weather resistance	w09_cad
+塩害	えんがい	salt damage	w09_cad
+結露	けつろ	condensation	w09_cad
+組立性	くみたてせい	ease of assembly	w09_cad
+材質	ざいしつ	material	w09_cad
+樹脂	じゅし	resin; plastic	w09_cad
+立ち上げ	たちあげ	bring-up; start-up	w10_bringup
+通電	つうでん	applying power	w10_bringup
+目視検査	もくしけんさ	visual inspection	w10_bringup
+実装不良	じっそうふりょう	assembly defect	w10_bringup
+手直し	てなおし	rework (fix by hand)	w10_bringup
+改版	かいはん	revision (new version)	w10_bringup
+評価	ひょうか	evaluation	w10_bringup
+単体試験	たんたいしけん	unit test	w10_bringup
+結合試験	けつごうしけん	integration test	w10_bringup
+試験項目	しけんこうもく	test item	w10_bringup
+期待値	きたいち	expected value	w10_bringup
+実測値	じっそくち	measured value	w10_bringup
+合否判定	ごうひはんてい	pass/fail judgement	w10_bringup
+現象	げんしょう	phenomenon; symptom	w10_bringup
+暫定対策	ざんていたいさく	temporary countermeasure	w10_bringup
+恒久対策	こうきゅうたいさく	permanent countermeasure	w10_bringup
+原因究明	げんいんきゅうめい	root-cause investigation	w10_bringup
+是正処置	ぜせいしょち	corrective action	w10_bringup
+影響範囲	えいきょうはんい	scope of impact	w10_bringup
+水平展開	すいへいてんかい	applying a fix/lesson across similar products	w10_bringup
+製品化	せいひんか	productization	w19_product
+量産	りょうさん	mass production	w19_product
+要求仕様	ようきゅうしよう	requirements specification	w19_product
+仕様書	しようしょ	specification document	w19_product
+設計審査	せっけいしんさ	design review	w19_product
+故障モード影響解析	こしょうモードえいきょうかいせき	FMEA	w19_product
+信頼性	しんらいせい	reliability	w19_product
+保守性	ほしゅせい	maintainability	w19_product
+工程	こうてい	process step; stage	w19_product
+工数	こうすう	man-hours; effort	w19_product
+見積もり	みつもり	estimate	w19_product
+日程	にってい	schedule	w19_product
+進捗	しんちょく	progress	w19_product
+課題管理	かだいかんり	issue tracking	w19_product
+優先順位	ゆうせんじゅんい	order of priority	w19_product
+担当者	たんとうしゃ	person in charge	w19_product
+承認	しょうにん	approval	w19_product
+合意	ごうい	agreement	w19_product
+前倒し	まえだおし	moving earlier (schedule)	w19_product
+後ろ倒し	うしろだおし	pushing back (schedule)	w19_product
+手戻り	てもどり	rework (going back a step)	w19_product
+引き継ぎ	ひきつぎ	handover	w19_product
+落としどころ	おとしどころ	acceptable compromise	w19_product
+根回し	ねまわし	laying groundwork (pre-alignment)	w19_product
+原価	げんか	cost (unit cost)	w19_product
+部材	ぶざい	parts and materials	w19_product
+出荷	しゅっか	shipment	w19_product
+検収	けんしゅう	acceptance inspection	w19_product
+一点確認してもいいですか		May I check one point?	phrases
+聞き取れなかったのですが、もう一度お願いできますか		I didn't catch that — could you say it again?	phrases
+〜という理解で合っていますか		Is my understanding that ~ correct?	phrases
+現象が出る	げんしょうがでる	the symptom occurs	phrases
+再現条件を絞る	さいげんじょうけんをしぼる	narrow down the reproduction conditions	phrases
+いったん見送る	いったんみおくる	hold off for now	phrases
+ずれが蓄積する	ずれがちくせきする	error accumulates	phrases
+測定値を突き合わせる	そくていちをつきあわせる	cross-check measurements	phrases
+〜と仮定すると	〜とかていすると	assuming ~	phrases
+基準をそろえる	きじゅんをそろえる	align the reference	phrases
+しきい値を超える	しきいちをこえる	exceed the threshold	phrases
+根拠を示す	こんきょをしめす	show the evidence	phrases
+ばらつきを抑える	ばらつきをおさえる	reduce variation	phrases
+現時点では判断できません	げんじてんでははんだんできません	We can't judge at this point	phrases
+影響範囲を確認する	えいきょうはんいをかくにんする	check the scope of impact	phrases
+ログを採取する	ログをさいしゅする	capture logs	phrases
+暫定対応を入れる	ざんていたいおうをいれる	put in a temporary fix	phrases
+合否基準を決める	ごうひきじゅんをきめる	set pass/fail criteria	phrases
+原因を切り分ける	げんいんをきりわける	isolate the cause	phrases
+確認でき次第、共有します	かくにんできしだい、きょうゆうします	I'll share as soon as I can confirm	phrases
+未確認の点が残っています	みかくにんのてんがのこっています	There's still an unconfirmed point	phrases
+前提をそろえる	ぜんていをそろえる	align assumptions	phrases
+担当を確認する	たんとうをかくにんする	confirm who owns it	phrases
+念のため確認します	ねんのためかくにんします	Let me check just in case	phrases
+判断を保留する	はんだんをほりゅうする	defer the decision	phrases
+認識をすり合わせる	にんしきをすりあわせる	align our understanding	phrases
+残課題を整理する	ざんかだいをせいりする	organize remaining issues	phrases
+一点懸念があります	いってんけねんがあります	I have one concern	phrases
+進める条件を確認する	すすめるじょうけんをかくにんする	confirm the conditions for proceeding	phrases
+判断を仰ぐ	はんだんをあおぐ	ask (a superior) for a decision	phrases
+結論から言うと	けつろんからいうと	To start with the conclusion	phrases
+〜の方向で進めてもよろしいでしょうか	〜のほうこうですすめてもよろしいでしょうか	May we proceed in the direction of ~?	phrases
+差動信号	さどうしんごう	differential signal	w11_nmea0183
+極性	きょくせい	polarity	w11_nmea0183
+逆接続	ぎゃくせつぞく	reversed connection (wires swapped)	w11_nmea0183
+送信側	そうしんがわ	sending side; talker	w11_nmea0183
+受信側	じゅしんがわ	receiving side; listener	w11_nmea0183
+フォトカプラ	フォトカプラ	optocoupler	w11_nmea0183
+回頭角速度	かいとうかくそくど	rate of turn	w11_nmea0183
+対地速力	たいちそくりょく	speed over ground (SOG)	w11_nmea0183
+文字化け	もじばけ	garbled characters	w11_nmea0183
+海図表示装置	かいずひょうじそうち	chart display; chartplotter	w11_nmea0183
+ドミナント	ドミナント	dominant (CAN bit)	w12_can
+レセシブ	レセシブ	recessive (CAN bit)	w12_can
+調停	ちょうてい	arbitration	w12_can
+送信元アドレス	そうしんもとアドレス	source address	w12_can
+受信フィルタ	じゅしんフィルタ	acceptance filter	w12_can
+バスオフ	バスオフ	bus-off (CAN error state)	w12_can
+回転数	かいてんすう	rotational speed; RPM	w12_can
+冷却水温	れいきゃくすいおん	coolant temperature	w12_can
+解析	かいせき	analysis	w12_can
+受信専用モード	じゅしんせんようモード	listen-only mode	w12_can
+幹線	かんせん	backbone (network trunk line)	w13_n2k
+支線	しせん	drop cable; branch line	w13_n2k
+分岐コネクタ	ぶんきコネクタ	T-connector; tee	w13_n2k
+給電	きゅうでん	power feed; supplying power	w13_n2k
+負荷	ふか	load	w13_n2k
+機器	きき	equipment; device	w13_n2k
+船舶用	せんぱくよう	for marine use	w13_n2k
+変換器	へんかんき	converter; gateway	w13_n2k
+同時に	どうじに	at the same time	w13_n2k
+重複	ちょうふく	duplication; conflict (e.g. duplicate address)	w13_n2k
+操舵	そうだ	steering	w14_control
+舵角	だかく	rudder angle	w14_control
+舵	かじ	rudder	w14_control
+推進	すいしん	propulsion	w14_control
+前後進切替	ぜんこうしんきりかえ	forward/reverse shift	w14_control
+中立	ちゅうりつ	neutral	w14_control
+後付け	あとづけ	retrofit; add-on	w14_control
+不感帯	ふかんたい	deadband	w14_control
+利得	りとく	gain (amplifier)	w14_control
+安全状態	あんぜんじょうたい	safe state	w14_control
+誤操作	ごそうさ	operating error	w14_control
+回転計	かいてんけい	tachometer	w14_control
+主機	しゅき	main engine (ship)	w14_control
+蓄電池	ちくでんち	storage battery	w15_power
+発電機	はつでんき	generator; alternator	w15_power
+配電盤	はいでんばん	distribution panel; switchboard	w15_power
+遮断器	しゃだんき	circuit breaker	w15_power
+断面積	だんめんせき	cross-sectional area	w15_power
+許容電流	きょようでんりゅう	allowable current; ampacity	w15_power
+接地	せっち	grounding; earthing	w15_power
+系統	けいとう	system; circuit (of a network)	w15_power
+始動	しどう	starting (an engine)	w15_power
+陸電	りくでん	shore power	w15_power
+塩水噴霧	えんすいふんむ	salt spray	w16_environment
+浸水	しんすい	water ingress; flooding	w16_environment
+自己融着テープ	じこゆうちゃくテープ	self-amalgamating tape	w16_environment
+防振	ぼうしん	vibration isolation	w16_environment
+共振	きょうしん	resonance	w16_environment
+圧着	あっちゃく	crimping	w16_environment
+乾燥剤	かんそうざい	desiccant	w16_environment
+露点	ろてん	dew point	w16_environment
+船級協会	せんきゅうきょうかい	classification society	w16_environment
+型式承認	かたしきしょうにん	type approval	w16_environment
+引張試験	ひっぱりしけん	pull test; tensile test	w16_environment
+搬送波	はんそうは	carrier wave	w17_rtk
+整数値バイアス	せいすうちバイアス	integer ambiguity	w17_rtk
+フィックス解	フィックスかい	fixed solution	w17_rtk
+フロート解	フロートかい	float solution	w17_rtk
+基準局	きじゅんきょく	base station; reference station	w17_rtk
+移動局	いどうきょく	rover	w17_rtk
+補強信号	ほきょうしんごう	augmentation signal	w17_rtk
+基線長	きせんちょう	baseline length	w17_rtk
+方位角	ほういかく	azimuth; heading angle	w17_rtk
+衛星配置	えいせいはいち	satellite geometry	w17_rtk
+準天頂衛星	じゅんてんちょうえいせい	quasi-zenith satellite (QZSS, Michibiki)	w17_rtk
+収束時間	しゅうそくじかん	convergence time	w17_rtk
+不揮発メモリ	ふきはつメモリ	non-volatile memory	w18_vcu
+設定値	せっていち	setting; parameter value	w18_vcu
+初期値	しょきち	default value; initial value	w18_vcu
+復帰	ふっき	recovery; return to normal	w18_vcu
+静電気	せいでんき	static electricity; ESD	w18_vcu
+耐ノイズ性	たいノイズせい	noise immunity	w18_vcu
+自動操舵	じどうそうだ	autopilot	w18_vcu
+保針	ほしん	course keeping	w18_vcu
+模擬	もぎ	simulation; mock	w18_vcu
+順番に確認させてください	じゅんばんにかくにんさせてください	Let me check things in order	phrases
+〜の可能性が高いです	〜のかのうせいがたかいです	It's likely that ~	phrases
+記録に残しておきます	きろくにのこしておきます	I'll keep a record of it	phrases
+保証に影響はありますか	ほしょうにえいきょうはありますか	Does it affect the warranty?	phrases
+おっしゃる通りです	おっしゃるとおりです	You're quite right	phrases
+設計通りの動作です	せっけいどおりのどうさです	That's the designed behaviour	phrases
+結論から申し上げますと	けつろんからもうしあげますと	(formal) To start with the conclusion	phrases
